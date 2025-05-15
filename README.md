@@ -86,7 +86,15 @@ Finally, the Deployment phase culminates in a user-friendly Streamlit dashboard.
 
 ## Exploratory Data Insights
 
----> COMING SOON! 
+- The data is complete, consistent, and highly granular, with over 3 million training rows and full coverage for all store-family combinations.
+- All relevant features are available and correctly merged: sales, promotions, holidays, transactions, oil prices, and store metadata.
+- No major missing values, except some gaps in oil price data (likely due to non-trading days).
+- Sales show strong seasonality, upward trend, and rare but significant outliers.
+- Modeling will require careful handling of categorical encoding, missing oil prices, and the right treatment for outliers.
+- The data is well-structured for time series forecasting at the (store, family, date) level.
+
+For a more comprehensive analysis and detailed visualizations, please refer to the [01_data_understanding notebook](https://github.com/D0bledore/store-sales-time-series-forecasting/blob/master/notebooks/01_data_understanding.ipynb).
+
 ## Modeling and Evaluation
 
 ---> COMING SOON! 
