@@ -97,7 +97,19 @@ For a more comprehensive analysis and detailed visualizations, please refer to t
 
 ## Modeling and Evaluation
 
----> COMING SOON! 
+**The modeling phase:**
+- Developed a comprehensive feature set leveraging store, product, calendar, and promotion information, including engineered lag and rolling features.
+- Trained and tuned two advanced modeling approaches: Prophet (for time series trends and seasonality) and XGBoost (for leveraging all available structured features).
+- Performed extensive hyperparameter optimization for XGBoost, saving all results and top configurations.
+- All intermediate results and metrics have been exported to CSV files for transparency and reproducibility.
+
+**Evaluation phase highlights:**
+- Each model was evaluated on a dedicated validation period using consistent metrics (RMSLE, MAE, RMSE) to ensure a fair comparison.
+- XGBoost delivered the best overall performance, significantly outperforming both Prophet and the naive baseline across all key error metrics.
+- Prophet effectively captured underlying sales trends and seasonality but was less responsive to sudden fluctuations and promotions.
+- The final model selection was made using a transparent, data-driven process grounded in robust validation, ensuring reliability and reproducibility.
+- The chosen XGBoost model is now ready for deployment in the interactive dashboard, supporting actionable business insights and decision-making.
+
 ## Conclusion and Future Work
 
 ---> COMING SOON! 
